@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            /* background-image: url('https://images.pexels.com/photos/132474/pexels-photo-132474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+       background-color: lightgreen; 
+    font-family: arial;
+    margin: 2em;
+}
+
+
+
+ p, .menu {
+    margin-bottom: 4em;
+    color: purple;
+ }
+h1 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: blueviolet;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ h2 {
+    margin-top: 2em;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+ }
+@media(min-width:800px){
+    
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+
+} 
+
+.menu li {
+        list-style: none;
+        margin: 1em;
+        padding: 1em;
+         border: 1px solid lightseagreen;
+border-radius: 4px;
+background-color:  purple;
+    }
+    
+
+    .menu a {
+        
+        /* padding: 1em; */
+        display: block;
+        /* width: 6em; */
+        margin: 0 auto;
+        color: white;
+        text-decoration: none;
+        
+       
+    }
+    .menu a:hover {
+        color: purple;
+    }
+
+    .menu li:hover {
+        
+        background-color : white;
+    }
+
+    /* .container {
+        text-align: center;
+       background-color: lightgreen; 
+       width: 80%;
+    } */
+    
+    /* .header {
+    
+    padding: 1em;
+} */
+
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div class="header" >
+            <h1>Nosimilo Celiwe Mtshali</h1>
+            <h2> Main Page layout</h2>
+            <p>Below are Links for my personal web pages using simple grid and flexbox </p>
+            <ul class="menu">
+                <li><a href="my-webpage-grid.html" >simple-grid Page</a></li>
+                <li><a href="my-webpage.html" >Flexbox Page</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

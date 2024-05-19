@@ -1,0 +1,226 @@
+body {
+background-color: #FCF8C5;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    color: brown;
+    border: 1px solid burlywood;
+    border-radius:1px ;
+
+    
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    flex: 2;
+    text-align: center;
+    font-size: 70px;
+   
+}
+
+ th {
+    text-align: left;
+    
+}
+td {
+    padding: 1em;
+}
+table, th, td {
+    border: 1px solid brown;
+    border-collapse: collapse;
+   
+    padding: 8px;
+}
+table {
+     width:80%  ;
+     margin-bottom: 1em;
+}
+
+
+
+
+
+.city {
+    /*background-color: #F2B27D;*/
+    padding: 1em;
+    margin: 1em;
+   
+}
+
+
+.paris {
+  padding-left: 1em;
+
+}
+
+.nosimilo {
+    flex: 1;
+    border-radius: 10px;
+    width: 400px;
+   height: 400px;
+   /* align-items: center; */
+    
+}
+
+.subject-3, .subject-2, .subject-1  {
+    display: flex; 
+    flex: 1;
+} 
+
+
+.historic-1, .historic-2, .historic-3 {
+    display:flex;
+    flex: 1;
+}
+
+
+.subject-p {
+    
+    font-size: small;
+    overflow: auto;
+    justify-content: space-evenly;
+}
+.historic-p {
+    font-size: small;
+    overflow: auto; 
+    justify-content: space-evenly;
+   
+}
+
+.language {
+    padding: 1em;
+}
+
+
+
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+.img-subject {
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+    margin-right:auto;
+    
+}
+
+.historical-images1{
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+    margin-right:auto;
+}
+
+.historical-images2{
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+    margin-right:auto;
+}
+
+.historical-images3{
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+    margin-right:auto;
+}
+
+h3 { 
+    text-align: left;
+}
+
+hr {
+    color: burlywood;
+    border: 1px dotted;
+}
+
+.intro {
+    margin-bottom: 1em;
+    justify-content: center;
+    width: 100%; 
+   
+     
+}
+
+@media (min-width:1000px ) {
+    .subjects {
+    display: flex;
+    
+
+}
+
+
+.historical-places {
+    display: flex;
+}
+
+
+
+.intro {
+   
+display:flex;
+
+    justify-content: center;
+   
+}                                                                                                       
+
+.city_content   {
+    display:flex;
+    /* align-items: center;
+    justify-content: center;
+    width: 100% ;
+} */
+}
+
+}
+
+footer {
+    background-color: brown;
+    margin: 1em;
+    padding: 1em;
+}
+
+a {
+display: block;
+margin: 0 auto;
+    color: blanchedalmond;
+}
+
+.link { 
+    color: blanchedalmond;
+}
+
+@media  (max-width: 950px) {
+
+    .mid-text {
+        order: 1;
+    }
+
+   
+    
+        .img-paris {
+            
+            justify-content: center;
+            width: 90%;
+            margin-left: 1.5em;
+        }
+    
+        .nosimilo {
+            
+            justify-content: center;
+            width: 85%;
+            margin-left: 1.5em;
+            
+        }
+
+       
+}
